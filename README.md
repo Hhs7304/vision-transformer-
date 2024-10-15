@@ -18,45 +18,7 @@ Welcome to the **Vision Transformer (ViT)** project! This project demonstrates t
 - **HuggingFace Transformers**: Library for leveraging pretrained transformer models.
 - **Matplotlib**: For visualizing training metrics and results.
 
-## 📂 Project Structure
 
-📦 vision-transformer-project
- ┣ 📂 data┃ ┗ 📜 custom_dataset/           # Place your custom dataset here┣ 📂 src
- ┃ ┗ 📜 vit_model.py              # Vision Transformer model implementation
- ┃ ┗ 📜 train.py                  # Script for training the ViT
- ┣ 📂 results
- ┃ ┗ 📜 accuracy_plot.png         # Accuracy plot after training
- ┃ ┗ 📜 loss_plot.png             # Loss plot after training
- ┣ 📜 README.md                   # Project documentation
- ┣ 📜 requirements.txt            # List of project dependencies
- ┗ 📜 .gitignore                  # Ignore unnecessary files in Git
-`
-
-## ⚙️ Setup and Installation
-
-1. **Clone the repository**:
-    ``bash
-    git clone https://github.com/yourusername/vision-transformer.git
-    ```
-
-2. **Navigate to the project directory**:
-    ``bash
-    cd vision-transformer
-    ```
-
-3. **Install the required dependencies**:
-    bash
-    pip install -r requirements.txt
-
-
-4. **Prepare your dataset**:
-    - Place your dataset in the `data/custom_dataset/` folder.
-    - The dataset should be organized in subfolders for each class (for example: `cats`, `dogs`, etc.).
-
-5. **Run the training script**:
-  `bash
-   python src/train.py
-  
 
 ## 📊 Example Results
 
