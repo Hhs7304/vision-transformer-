@@ -21,9 +21,7 @@ Welcome to the **Vision Transformer (ViT)** project! This project demonstrates t
 ## 📂 Project Structure
 
 📦 vision-transformer-project
- ┣ 📂 data
- ┃ ┗ 📜 custom_dataset/           # Place your custom dataset here
- ┣ 📂 src
+ ┣ 📂 data┃ ┗ 📜 custom_dataset/           # Place your custom dataset here┣ 📂 src
  ┃ ┗ 📜 vit_model.py              # Vision Transformer model implementation
  ┃ ┗ 📜 train.py                  # Script for training the ViT
  ┣ 📂 results
