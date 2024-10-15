@@ -20,7 +20,6 @@ Welcome to the **Vision Transformer (ViT)** project! This project demonstrates t
 
 ## 📂 Project Structure
 
-``
 📦 vision-transformer-project
  ┣ 📂 data
  ┃ ┗ 📜 custom_dataset/           # Place your custom dataset here
